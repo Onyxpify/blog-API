@@ -27,7 +27,7 @@ app.use(fileUpload())
 app.use(cookieParser())
 app.use(passport.initialize())
 app.use(passport.session())
-app.use('/posts', blogPostsRoute)
+app.use('/', blogPostsRoute)
 app.use('/users', userRoute)
 
 const PORT = process.env.PORT || 4000
