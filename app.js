@@ -28,7 +28,7 @@ app.use(cookieParser())
 app.use(passport.initialize())
 app.use(passport.session())
 app.use('/', blogPostsRoute)
-app.use('/users', userRoute)
+app.use('/', userRoute)
 
 const PORT = process.env.PORT || 4000
 const start = async () => {
