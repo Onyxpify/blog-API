@@ -8,11 +8,7 @@
     }
   ],
   "routes": [
-    { "src": "/login", "dest": "./routes/user.js" },
-    { "src": "/register", "dest": "./routes/user.js" },
-    { "src": "/logout", "dest": "./routes/user.js" },
-    { "src": "/create", "dest": "./routes/blog.js" },
-    { "src": "/:id", "dest": "./routes/blog.js" },
+    
     { "src": "/(.*)", "dest": "app.js" }
   ]
 }
